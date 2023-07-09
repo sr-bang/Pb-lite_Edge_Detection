@@ -14,8 +14,17 @@ In this assignment, a Pb (Probability of Boundary) algorithm is implemented whic
 <img src="Responses/Filters/Filter_Bank.png"  align="center" alt="Undistorted" width="500"/>
 
 ## Computing Texton, Brightness and Color map
+To create Texton maps, all the filters (total 168) are applied to the image and a stack of resultant outputs is obtained. Further, the pixels having similar texture properties are grouped using KMeans clustering method and then a discrete texton ID is assigned to each pixel. Similarly, the brightness and color maps are used to encode the intensity and color values for each pixel respectively.
+
+<div class="image-container">
+    <img src="Responses/Texton_map/TextonMap_10.png" alt="Image 1" width="300">
+    <img src="Responses/Brightness_map/BrightnessMap_10.png" alt="Image 2" width="300">
+    <img src="Responses/Color_map/ColorMap_10.png" alt="Image 3" width="300">
+
+</div>
 
 ## Gradients of Texture, Brightness and Color for each pixel
+Gradient maps help us to define a series of local gradient measurements i.e. the change in distributions of texture, brightness and color at a particular pixel.
 
 
 ## Combining the output with Canny and Sobel for boundary detection
