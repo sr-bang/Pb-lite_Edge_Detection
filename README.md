@@ -1,4 +1,4 @@
-# Pb-lite_Edge_Detection
+# Probability based Edge Detection
 
 In this assignment, a Pb (Probability of Boundary) algorithm is implemented which improves the classical methods of edge detection like Canny and Sobel baselines. This algorithm considers 4 steps:
 - Generating filter bank: Oriented DoG filters, Leung-Malik Filters and Gabor Filters
