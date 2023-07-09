@@ -20,11 +20,15 @@ To create Texton maps, all the filters (total 168) are applied to the image and 
     <img src="Responses/Texton_map/TextonMap_10.png" alt="Image 1" width="300">
     <img src="Responses/Brightness_map/BrightnessMap_10.png" alt="Image 2" width="300">
     <img src="Responses/Color_map/ColorMap_10.png" alt="Image 3" width="300">
-
 </div>
 
 ## Gradients of Texture, Brightness and Color for each pixel
-Gradient maps help us to define a series of local gradient measurements i.e. the change in distributions of texture, brightness and color at a particular pixel.
+Gradient maps help us to define a series of local gradient measurements i.e. the change in distributions of texture, brightness and color at a particular pixel.
 
+<div class="image-container">
+    <img src="Responses/Tg/Tg_10.png" alt="Image 1" width="300">
+    <img src="Responses/Bg/Bg_10.png" alt="Image 2" width="300">
+    <img src="Responses/Cg/Cg_10.png" alt="Image 3" width="300">
+</div>
 
 ## Combining the output with Canny and Sobel for boundary detection
